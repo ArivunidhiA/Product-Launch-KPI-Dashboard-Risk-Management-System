@@ -1,0 +1,34 @@
+# Product Launch KPI Dashboard & Risk Management System
+
+## Project Structure
+```
+product_launch_dashboard/
+├── data/
+│   ├── sample_data/
+│   │   ├── product_data.csv
+│   │   ├── launch_milestones.csv
+│   │   ├── risks.csv
+│   │   └── retail_readiness.csv
+├── src/
+│   ├── __init__.py
+│   ├── dashboard/
+│   │   ├── __init__.py
+│   │   ├── kpi_dashboard.py
+│   │   └── data_processor.py
+│   ├── risk_management/
+│   │   ├── __init__.py
+│   │   ├── risk_analyzer.py
+│   │   └── risk_matrix.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+├── notebooks/
+│   └── dashboard_development.ipynb
+├── tests/
+│   ├── __init__.py
+│   ├── test_dashboard.py
+│   └── test_risk_analyzer.py
+├── requirements.txt
+├── README.md
+└── app.py
+```
